@@ -1,13 +1,20 @@
 /* The code below puts the title of the website in the center */
 .title { 
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'UnifrakturMaguntia';
+    font-size: 300%;
+    padding-bottom: 10px;
+    border-bottom: white solid 2px
 }
 
 /* The code below adds a white background-color and black text color for the body of the page. */
 body {
-    color: black;
+    color: white;
     text-align: center;
-    background-color: white;
+    background-color: black;
+ /*  Add text-shadow for simulating ink splotches */
+     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -15,5 +22,11 @@ body {
 .section {
     color:white;
     text-align: center;
-    background-color: black;
+}
+.list{
+    text-align: left;
+}
+
+img{
+    width:70%;
 }
